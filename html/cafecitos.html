@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafecitos</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="fondoCafe" class="container-fluid">
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="imgLogo" src="Cafecitos/img/logo.jpg" alt="Logo Cafecitos">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto menuNav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Café</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiencia cafecitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Encontra tu tienda</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrousel -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Cafecitos/img/carru1.jpg" class="d-block w-100" alt="carru1">
+            </div>
+            <div class="carousel-item">
+                <img src="Cafecitos/img/carru2.webp" class="d-block w-100" alt="carru2">
+            </div>
+            <div class="carousel-item">
+                <img src="Cafecitos/img/carru2.webp" class="d-block w-100" alt=".carru3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Productos -->
+    <div class="productos">
+        <h2>Cafes</h2>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/café-con-leche.jpeg" class="card-img-top" alt="cafe-con-leche">
+                <div class="card-body">
+                    <h5 class="card-title">Café con leche</h5>
+                    <p class="card-text">El café con leche es una de las bebidas más comunes que incluyen café. Consta básicamente de dos ingredientes: café y leche, con una proporción que varía de acuerdo a las costumbres locales, pero ronda la mezcla por partes iguales.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/Cafe-negro.jpg" class="card-img-top" alt="cafe-negro">
+                <div class="card-body">
+                    <h5 class="card-title">Negro</h5>
+                    <p class="card-text">Expresión que indica el café fluido que se usa como bebida, endulzado o amargo; pero sin adición de leche, crema u otro ingrediente.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/Cafe_capuchino.jpg" class="card-img-top" alt="cafe_capuchino">
+                <div class="card-body">
+                    <h5 class="card-title">Capuccino</h5>
+                    <p class="card-text">El capuchino ​ es una bebida nacida en Austria, preparada con café expresso y leche montada con vapor para darle cremosidad. Un capuchino se compone de 125 ml de leche y 25 ml de café expresso, en ocasiones se agrega cacao en polvo o canela según el gusto del consumidor.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/cafe-frappe.jpeg" class="card-img-top" alt="cafe-frappe">
+                <div class="card-body">
+                    <h5 class="card-title">Frappe</h5>
+                    <p class="card-text">El café frappé o café frapé es un café con hielo cubierto de espuma elaborado a partir de café instantáneo.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/cafe-largo.jpg" class="card-img-top" alt="cafe-largo">
+                <div class="card-body">
+                    <h5 class="card-title">Lungo</h5>
+                    <p class="card-text">Lungo es una bebida de café que se elabora utilizando una máquina de café expreso para preparar un café al estilo italiano: negro corto con más agua, lo que da como resultado un café más grande, un lungo.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/cafe-manchado.jpg" class="card-img-top" alt="cafe-manchado">
+                <div class="card-body">
+                    <h5 class="card-title">Manchado</h5>
+                    <p class="card-text">El café manchado o caffè macchiato en italiano, también llamado espresso macchiato, es un café cortado típico de Italia, consiste en un expreso con una pequeña cantidad de leche caliente y espumada. En España se suele denominar café cortado.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/cafe-solo.jpg" class="card-img-top" alt="cafe-solo">
+                <div class="card-body">
+                    <h5 class="card-title">Solo</h5>
+                    <p class="card-text">El café expreso es una forma de preparación de café.​ Debe su término a la obtención de esta bebida a través de una cafetera expreso.​ Se caracteriza por su rápida preparación a una alta presión y por un sabor y textura más concentrados</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12">
+                <img src="Cafecitos/img/Cortadito.png" class="card-img-top" alt="Cortadito">
+                <div class="card-body">
+                    <h5 class="card-title">Cortado</h5>
+                    <p class="card-text">Un cortado es un término de origen español para denominar a un café espresso con una pequeña cantidad de leche, normalmente caliente, para quitarle el amargor al café,1​2​ aunque en algunos lugares se le denomina cortado con leche para diferenciarlo del "cortado con agua", que consiste en un café expreso con más espuma de lo usual.</p>
+                    <button type="button" class="btn btncafecitos" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Añadir al Carrito
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de Compras</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¿Estas seguro de añadir este producto al carrito?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-md-2 mb-3">
+        <h5 class="Section"></h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sobre Nosotros</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Impacto Social</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Atencion al cliente</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Experiencia Cafecitos</a></li>
+        </ul>
+      </div>
+
+   
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
